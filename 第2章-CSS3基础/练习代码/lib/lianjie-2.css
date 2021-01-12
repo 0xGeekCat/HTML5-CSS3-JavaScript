@@ -1,0 +1,6 @@
+p {
+    color: #FF3333;
+    font-weight: bold;
+    border-bottom: 3px dashed #009933;  /*设置下边框线宽度 样式 颜色*/
+    line-height: 30px;
+}

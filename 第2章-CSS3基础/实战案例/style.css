@@ -1,0 +1,22 @@
+/*公共属性*/
+html {min-width: 776px;}
+body {margin: 0; padding: 0; border: 0; color: #000; font-size: 14px;line-height: 160%; text-align: center; background: #6D89DD; font-family: '宋体', '新宋体', Arial, Verdana, sans-serif;}
+a {margin: 0; padding: 0; border: 0; text-decoration: none;}
+a:link {color: #E66133;}                                /* 未访问的链接 */
+a:visited {color: #E66133;}                             /* 已访问的链接 */
+a:hover {color: #637DBC; text-decoration: underline;}   /* 当有鼠标悬停在链接上 */
+pre {text-indent: 0; background: #DDDDDD; padding: 0; margin: 0; color: blue;}
+/*顶部布局*/
+#top {width: 776px; margin-right: auto; margin-left: auto; padding: 0; height: 12px; background: url("images/bg_top1.jpg") #fff repeat-x left top; overflow: hidden;}
+#top1 {width: 776px; margin-right: auto; margin-left: auto; padding: 0; height: 121px;}
+/*主体布局*/
+#main {width: 776px; margin-right: auto; margin-left: auto; padding: 1.2em 0; background: url("images/bg_dot1.gif") #fff repeat left top; text-align: left;}
+#content {width: 710px; margin-right: auto; margin-left: auto; padding: 1em; background: #fff;}
+#title {font-weight: bold; margin: 0 0 0.5em 0; padding: 0.5em 0 0.5em 1em; font-size: 24px; color: #00A06B; text-align: left; border-bottom: solid #9EA3C1 2px;}
+.sub {color: #00A06B; font-weight: bold; font-size: 13px; text-align: left; padding: 1em 2em 0; background: url("images/0.gif") #fff no-repeat 1em 74%}
+.content {text-indent: 2em; font-size: 13px; margin-left: 2em; padding: 1em 6px;}
+#gotop {width: 100%; margin: 0; padding: 0; background: #fff; height: 2em; font-size: 12px; text-align: right;}
+/*底部布局*/
+#footer {clear: both; width: 776px; margin-right: auto; margin-left: auto; padding: 0; background: url("images/bg_bottom.gif") #fff repeat left top; text-align: center; height: 39px; color: #ddd}
+#copyright {width: 776px; margin-right: auto; margin-left: auto; padding: 5px 0 0 0; background: #fff; text-align: center; height: 60px; line-height: 13px; font-size: 12px; color: #9EA0BB;}
+#copyright a {color: #667EBE}

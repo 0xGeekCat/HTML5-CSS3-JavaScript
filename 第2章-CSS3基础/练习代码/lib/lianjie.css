@@ -1,0 +1,11 @@
+h3 {
+    font-weight: normal;        /*取消标题默认加粗功能*/
+    background-color: #66CC99;
+    height: 50px;               /*设置标签的高度*/
+    line-height: 50px;          /*设置标签的行高*/
+}
+
+span {
+    color: #FF0000;
+    font-weight: bold;          /*字体加粗*/
+}
