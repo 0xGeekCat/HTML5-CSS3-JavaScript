@@ -1,0 +1,14 @@
+/*模拟百度文库的页面效果*/
+body {background: url("bg2.jpg") no-repeat; width: 995px; height: 1401px;}
+/*以绝对定位方式快速进行布局*/
+#wrap {position: absolute; width: 242px; height: 232px; z-index: 1; left: 737px; top: 395px;}
+/*初始化超链接、span、p基本样式*/
+a {padding-left: 24px; text-decoration: none;}
+span {color: #999; font-size: 12px; display: block; padding-left: 24px; padding-bottom: 6px;}
+p {margin: 4px;}
+
+a[href$=pdf] {background: url("pdf.jpg") no-repeat left center;}
+a[href$=ppt] {background: url("ppt.jpg") no-repeat left center;}
+a[href$=txt] {background: url("txt.jpg") no-repeat left center;}
+a[href$=doc] {background: url("doc.jpg") no-repeat left center;}
+a[href$=xls] {background: url("xls.jpg") no-repeat left center;}

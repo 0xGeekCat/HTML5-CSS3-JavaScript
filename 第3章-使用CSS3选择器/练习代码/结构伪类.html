@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>结构伪类</title>
+    <style type="text/css">
+        /*模拟博客首页效果*/
+        body {background: url("images/bg2.jpg") no-repeat; height: 2617px; width: 980px;}
+        /*定位栏目位置*/
+        #wrap {position: absolute; width: 249px; height: 249px; z-index: 1; left: 712px; top: 201px;}
+        /*初始化列表结构样式*/
+        #wrap ul {list-style-type: none; margin: 0; padding: 0; font-size: 12px; color: #777;}
+        #wrap li {background: url("images/top10-bullet.png") no-repeat 2px 10px; padding: 1px 0 0 28px; line-height: 30px;}
+        #wrap li a {text-decoration: none; color: #777;}
+        #wrap li a:hover {color: #f63;}
+
+        /*#wrap li:first-child {background-position: 2px 10px;font-weight: bold;}*/
+        /*#wrap li:last-child {background-position: 2px -277px;}*/
+        /*#wrap li:nth-child(even) {background-position: 2px -31px;}*/
+        /*#wrap li:nth-child(3) {background-position: 2px -72px;}*/
+        /*#wrap li:nth-child(4) {background-position: 2px -113px;}*/
+        /*#wrap li:nth-child(5) {background-position: 2px -154px;}*/
+        /*#wrap li:nth-child(6) {background-position: 2px -195px;}*/
+        /*#wrap li:nth-child(7) {background-position: 2px -236px;}*/
+        /*#wrap li:nth-last-child(odd) {background-color: #efefef;}*/
+
+    </style>
+</head>
+<body>
+<div id="wrap">
+    <ul id="container">
+        <li><a href="#">送君千里终须一别</a></li>
+        <li><a href="#">旅行的意义</a></li>
+        <li><a href="#">南师虽去精神永存</a></li>
+        <li><a href="#">榴莲糯米糍</a></li>
+        <li><a href="#">阿尔及利亚</a></li>
+        <li><a href="#">白菜鸡肉</a></li>
+        <li><a href="#">展望塔上</a></li>
+        <li><a href="#">我们相遇</a></li>
+    </ul>
+</div>
+</body>
+</html>
