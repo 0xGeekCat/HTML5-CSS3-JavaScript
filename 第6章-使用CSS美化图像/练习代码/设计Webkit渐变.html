@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计Webkit渐变</title>
+    <style type="text/css">
+        div.d1 {
+            width: 400px;
+            height: 200px;
+            border: 2px solid #FCF;
+            padding: 4px;
+            background: -webkit-gradient(linear, left top, left bottom, from(blue), to(red));
+            -webkit-background-origin: padding-box;
+            -webkit-background-clip: content-box;
+        }
+        div.d2 {
+            width: 400px;
+            height: 200px;
+            border: 2px solid #FCF;
+            padding: 4px;
+            background: -webkit-gradient(linear, left top, left bottom, from(blue), to(red), color-stop(20%, green));
+            -webkit-background-origin: padding-box;
+            -webkit-background-clip: content-box;
+        }
+        div.d3 {
+            width: 400px;
+            height: 200px;
+            border: 2px solid #FCF;
+            padding: 4px;
+            background: -webkit-gradient(linear, left top, left bottom, from(blue), to(red), color-stop(0.5, #fff), color-stop(0.5, #000));
+            -webkit-background-origin: padding-box;
+            -webkit-background-clip: content-box;
+        }
+        div.d4 {
+            width: 400px;
+            height: 200px;
+            border: 2px solid #FCF;
+            padding: 4px;
+            background: -webkit-gradient(radial, 120 100, 10, 200 100, 100, from(red), to(green));
+            -webkit-background-origin: padding-box;
+            -webkit-background-clip: content-box;
+        }
+        div.d5 {
+            width: 400px;
+            height: 200px;
+            border: 2px solid #FCF;
+            padding: 4px;
+            background: -webkit-gradient(radial, 180 80, 10, 200 100, 90, from(#00c), to(rgba(1, 159, 98, 0)), color-stop(98%, #0cf));
+            -webkit-background-origin: padding-box;
+            -webkit-background-clip: content-box;
+        }
+    </style>
+</head>
+<body>
+<div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"></div>
+<div class="d4"></div>
+<div class="d5"></div>
+</body>
+</html>
