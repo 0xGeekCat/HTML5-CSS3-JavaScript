@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>设计图形化按钮样式</title>
+    <style type="text/css">
+        body {
+            background: url("images/bg1.jpg") no-repeat;
+            padding: 0;
+            margin: 0;
+            width: 1005px;
+            height: 617px;
+        }
+        #box {
+            position: absolute;
+            width: 94px;
+            height: 28px;
+            z-index: 1;
+            left: 647px;
+            top: 200px;
+        }
+        a.reg {
+            background: transparent url("images/btn.png") no-repeat top left;
+            display: block; /*块状显示，方便定义宽度和高度*/
+            width: 74px;
+            height: 25px;
+            text-indent: -999px; /*隐藏超链接中文本*/
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <a href="#" class="reg">注册</a>
+</div>
+</body>
+</html>
