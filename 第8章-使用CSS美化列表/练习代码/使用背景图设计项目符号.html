@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用背景图设计项目符号</title>
+    <style type="text/css">
+        ul {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            border-bottom: 1px dashed #aaa;
+            width: 20em;
+        }
+        li {
+            padding: 0.5em;
+            border-top: 1px dashed #aaa;
+        }
+        li a {
+            display: block;
+            padding-left: 1.5em;
+            background: url("images/arrow3.gif") no-repeat left center;
+            text-decoration: none;
+        }
+        li a:link {
+            background: url("images/arrow3.gif") no-repeat right center;
+        }
+        li a:visited {
+            background: url("images/arrow5.gif") right center no-repeat;
+        }
+        li a:hover {
+            background: url("images/arrow4.gif") left center no-repeat;
+        }
+    </style>
+</head>
+<body>
+<h1>新闻</h1>
+<ul>
+    <li><a href="#">军事</a></li>
+    <li><a href="#">财经</a></li>
+    <li><a href="#">体育</a></li>
+    <li><a href="#">娱乐</a></li>
+    <li><a href="#">科技</a></li>
+</ul>
+</body>
+</html>

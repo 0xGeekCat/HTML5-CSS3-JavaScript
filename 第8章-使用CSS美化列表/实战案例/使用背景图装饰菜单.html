@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>使用背景图装饰菜单</title>
+    <style>
+        .menu {
+            position: absolute;
+            top: 164px;
+            left: 20px;
+            width: 748px;
+            padding: 0 0 0 1em;
+            margin: 0;
+            list-style: none;
+            height: 35px;
+            background: url("images/bg3.gif");
+        }
+        .menu li {float: left;}
+        .menu li a {
+            display: block;
+            float: left;
+            height: 35px;
+            line-height: 33px;
+            color: #ffff00;
+            text-decoration: none;
+            font-family: arial, verdana, sans-serif;
+            text-align: center;
+            padding: 0 0 0 14px;
+            cursor: pointer;
+            font-size: 11px;
+        }
+        .menu li a b {
+            float: left;
+            display: block;
+            padding: 0 28px 0 14px;
+        }
+        .menu li.current a {
+            color: #fff;
+            background: url("images/left3.gif");
+        }
+        .menu li.current a b {
+            background: url("images/left3.gif") no-repeat right top;
+        }
+    </style>
+</head>
+<body>
+<ul class="menu">
+    <li><a href="#"><b>查看样式表CSS</b></a></li>
+    <li><a href="#"><b>参考资料</b></a></li>
+    <li><a href="#"><b>常见问题</b></a></li>
+    <li class="current"><a href="#"><b>投稿</b></a></li>
+    <li><a href="#"><b>翻译文件</b></a></li>
+</ul>
+</body>
+</html>
