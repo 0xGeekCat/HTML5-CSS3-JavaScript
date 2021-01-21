@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单和列表框</title>
+</head>
+<body>
+<form>
+    <p>姓名：<label>
+        <input type="text" value="">
+    </label></p>
+    <p>所在城市：
+        <label>
+            <select name="选择城市" multiple size="1">
+                <optgroup label="山东省">
+                    <option value="潍坊">潍坊</option>
+                    <option value="青岛" selected>青岛</option>
+                </optgroup>
+                <optgroup label="山西省">
+                    <option value="太原">太原</option>
+                    <option value="榆次">榆次</option>
+                </optgroup>
+            </select>
+        </label>
+    </p>
+    <p><input type="submit" value="提交"></p>
+</form>
+</body>
+</html>
