@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动</title>
+    <style type="text/css">
+        div {
+            border: solid 1px red;
+            height: 50px;
+        }
+        #left, #middle, #right {
+            float: left;
+            width: 33%;
+        }
+        #left {
+            height: 100px;
+        }
+        #footer {
+            border: solid 4px green;
+            clear: left;
+        }
+    </style>
+</head>
+<body>
+<div id="header">头部信息</div>
+<div id="left">左侧信息</div>
+<div id="middle">中间信息</div>
+<div id="right">右侧信息</div>
+<div id="footer">脚部信息</div>
+</body>
+</html>

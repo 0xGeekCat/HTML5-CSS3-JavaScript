@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>定位框</title>
+    <style type="text/css">
+        #a, #b {
+            width: 200px;
+            height: 200px;
+            float: left;
+            margin-top: 50px;
+            border: solid 1px red;
+        }
+        #b {
+            position: relative;
+            margin-left: 50px;
+        }
+        #c, #d {
+            width: 50%;
+            height: 50%;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+        }
+        #c {
+            background: #99ffff;
+        }
+        #d {
+            background: #7b9f23;
+        }
+    </style>
+</head>
+<body>
+<div id="a">
+    <div id="c"></div>
+</div>
+<div id="b">
+    <div id="d"></div>
+</div>
+</body>
+</html>
